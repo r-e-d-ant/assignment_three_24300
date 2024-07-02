@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'sign_in_screen.dart';
+import 'sign_up_screen.dart';
 import 'theme_screen.dart';
-import 'auth_screen.dart';
 import '../services/connectivity_service.dart';
 import '../services/battery_service.dart';
 
@@ -30,18 +31,22 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Home')),
+      appBar: AppBar(title: Text('Thierry\'s app')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => ThemeScreen())),
-              child: Text('Theme Settings'),
+              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SignInScreen())),
+              child: Text('Sign In'),
             ),
             ElevatedButton(
-              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AuthScreen())),
-              child: Text('Authentication'),
+              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpScreen())),
+              child: Text('Sign Up'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => ThemeScreen())),
+              child: Text('Theme Settings'),
             ),
           ],
         ),
