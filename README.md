@@ -1,16 +1,10 @@
-# assignment_three_24300
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+	
+Assignment #3. Create Broadcast Receivers, Shared Preferences and Authentication API
+▰ Implement BroadcastReceivers
+    ▻Your app should detect Internet connectivity and toast a message in case of change
+    ▻ Create a BroadcastReceiver that will ring and toast a message once your battery on charger reaches the threshold (eg. 90%)
+▰Implement Shared Preferences: Implement Light and Dark Mode
+▰Authentication API: Implement SignUp and SignIn
+   ▻Email and Password Authentication
+   ▻Social Media Authentication
+   ▻User Management
