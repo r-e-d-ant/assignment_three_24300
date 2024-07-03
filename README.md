@@ -21,3 +21,11 @@ Assignment #3. Create Broadcast Receivers, Shared Preferences and Authentication
 ![image](https://github.com/r-e-d-ant/assignment_three_24300/assets/66163130/c3828240-5fc1-4e85-9eec-349a74812aa3)
 
 ![image](https://github.com/r-e-d-ant/assignment_three_24300/assets/66163130/424f0b66-b978-470c-aa02-c3cef370f628)
+
+![image](https://github.com/r-e-d-ant/assignment_three_24300/assets/66163130/e9892568-97a6-4ef3-a359-bc5ffec197ff)
+
+![image](https://github.com/r-e-d-ant/assignment_three_24300/assets/66163130/866af5ee-deeb-4f83-ac04-785b4aa17d1f)
+
+![image](https://github.com/r-e-d-ant/assignment_three_24300/assets/66163130/479402f6-1fd7-4cd0-97ab-7c5337e527d8)
+
+![image](https://github.com/r-e-d-ant/assignment_three_24300/assets/66163130/8983fbe6-89e8-42d0-9243-fc3d60c083af)
