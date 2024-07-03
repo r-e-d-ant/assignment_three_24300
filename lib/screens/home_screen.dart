@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'sign_in_screen.dart';
 import 'sign_up_screen.dart';
 import 'theme_screen.dart';
+import 'user_management_screen.dart';
 import '../services/connectivity_service.dart';
 import '../services/battery_service.dart';
 
@@ -31,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Thierry\'s app')),
+      appBar: AppBar(title: Text('Home')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -47,6 +48,10 @@ class _HomeScreenState extends State<HomeScreen> {
             ElevatedButton(
               onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => ThemeScreen())),
               child: Text('Theme Settings'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => UserManagementScreen())),
+              child: Text('User Management'),
             ),
           ],
         ),
